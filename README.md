@@ -1,2 +1,2 @@
 # Personal-Website
-Read the Repo Name Bruh
+This is a personal website. 
