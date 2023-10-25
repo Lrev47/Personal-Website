@@ -1,0 +1,54 @@
+body{background-color: #404258;
+    color: white;}
+    
+    h1{display: flex;
+    justify-content: center;
+    color: white;}
+    
+    nav{display: flex;
+    justify-content: space-around;}
+    
+    a{text-decoration: none;
+        color: white;
+    text-decoration: underline;}
+
+    section{
+        background-color: #50577A;
+        margin-top: 15px;
+        margin-right: 10%;
+        margin-left: 10%;
+        position: relative;
+        height: 350px;
+
+    }
+    .odds{background-color: #6B728E;
+    }
+
+.odd{
+    position: absolute;
+    top: 100px;
+    right: 15px;}
+    
+.even{position: absolute;
+top: 100px;
+left: 15px;}
+
+h2{position: absolute;
+top: 5px;
+right: 45%;
+text-align: center;}
+.oddp{
+    position: absolute;
+    top: 40%;
+    width: 700px;
+    left: 20px;
+}
+.evenp{
+    position: absolute;
+    top: 40%;
+    width: 700px;
+    right: 20px;
+}
+footer{margin-top: 30px;
+    display: flex;
+justify-content: space-evenly;}
