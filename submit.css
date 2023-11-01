@@ -5,6 +5,7 @@ body{background-color: black;
     background-repeat: no-repeat;
     min-height: 100%;
     background-position: center center;
+    height: 100%;
 }
 
 h1{ display: flex;
@@ -15,4 +16,7 @@ p{
     display: flex;
     justify-content: center;
     size: 30px;
+}
+.empty-div{
+    height: 80vh;
 }

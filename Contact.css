@@ -27,11 +27,27 @@ a{  text-decoration: none;
     margin: 1%;
     display: grid;
     grid-template-columns: auto auto;
+    height: 65vh;
 }
 
 .final-thought{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+h2{
     text-align: center;
 }
+
+p{
+    text-align: center;
+}
+
+.code-pic{
+    margin-left: 17rem;
+    box-shadow: 10px 10px 10px black
+}
+
 .contact-info{
     display: flex;
     align-items: center;
