@@ -1,2 +1,2 @@
 # Personal-Website
-This is a personal website. 
+A personal website to show off my projects, skills and other atributes for future prospects.

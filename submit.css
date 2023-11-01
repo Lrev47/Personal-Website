@@ -11,3 +11,8 @@ h1{ display: flex;
     justify-content: center;
     color: white;
 }
+p{
+    display: flex;
+    justify-content: center;
+    size: 30px;
+}

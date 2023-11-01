@@ -25,4 +25,20 @@ a{  text-decoration: none;
     background-color: rgba(1, 1, 1, .4);
     padding: 30px;
     margin: 1%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.final-thought{
+    text-align: center;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit-button{    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
