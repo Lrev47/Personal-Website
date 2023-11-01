@@ -15,27 +15,29 @@ body{background-color: black;
     text-decoration: underline;}
 
     section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         background-color: rgba(1, 1, 1, .4);
-        margin: 1%;
-        display: grid;  
-        grid-template-rows: auto;
-        width: 100%;  
-        
+        margin: 2rem;
+        height: 300px;
     }
-    .title{
-        padding: 15px;
-        margin-left: 30px;
-        font-size: 45px;
-        margin-bottom: 1px;
-    }
+.pictures{
+    margin-top: 15%;
+    box-shadow: 10px 10px 10px  black;
+}
+.pictures-even{
+    margin-top: 8%;
+}
 
-    .pictures{
-        padding: 1%;
-        margin-left: 70%;
-    }
 
-    .about-me{
-        font-size: 17px;
-        margin-left: 5%;
-        margin-bottom: 2%;    
-    }
+.title{
+    padding: 20px;
+}
+.about-me{
+    margin-top: 10%;
+    margin-right: 1rem;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
