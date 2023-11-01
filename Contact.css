@@ -42,3 +42,7 @@ a{  text-decoration: none;
     justify-content: center;
     padding: 20px;
 }
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
