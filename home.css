@@ -1,4 +1,5 @@
-body{background-color: black;
+body {
+    background-color: black;
     background-image: url(https://images.unsplash.com/photo-1557626204-59dd03fd2d31?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     color: white;
     background-size: cover;
@@ -7,50 +8,57 @@ body{background-color: black;
     background-position: center center;
 }
 
-h1{ display: flex;
+h1 {
+    display: flex;
     justify-content: center;
     color: white;
 }
 
-nav{ display: flex;
-     justify-content: space-around;
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 
-a{  text-decoration: none;
+a {
+    text-decoration: none;
     color: white;
     text-decoration: underline;
 }
 
-.main-div{
+.main-div {
     background-color: rgba(1, 1, 1, .4);
     padding: 30px;
     margin: 1%;
 }
 
-.Catchy-saying{
+.Catchy-saying {
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
-.main-info{
+
+.main-info {
     display: grid;
-    grid-template-columns: auto auto;    
+    grid-template-columns: auto auto;
 }
-.quote{
+
+.quote {
     display: flex;
     justify-content: center;
     font-size: 36px;
 }
 
-.headshot{
+.headshot {
     padding: 10px;
 }
-.about-me{
+
+.about-me {
     padding: 20px;
     margin: 5%;
     font-size: 22px;
 }
-footer{
+
+footer {
     display: flex;
     justify-content: space-evenly;
 }
